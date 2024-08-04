@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/login.css">
+    <script src="scripts/login.js" defer></script>
+</head>
+<body>
+    <section class="content">
+        <h2>Login</h2>
+        <form id="loginForm" action="https://script.google.com/macros/s/AKfycbxfCJFeA0FWCg3cPYH7tPXsXGSkAAGTkm8ecTVI60Gys_gh_0KfnMa50d8DNSwHGwn8TQ/exec" method="POST">
+            <input type="hidden" name="login" value="true">
+            <div class="field">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="field">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+
+            <div class="field">
+                <button type="submit" class="submit">Login</button>
+            </div>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+        <p id="loginMessage" class="error-message"></p>
+    </section>
+    <footer>
+        <div class="footer">
+            <p class="footer-copyright">© 2024 NouSante. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

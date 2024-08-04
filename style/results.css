@@ -1,0 +1,90 @@
+#noMatchMessage {
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    color: red;
+}
+
+#pagination-controls {
+    text-align: right;
+    margin: auto;
+    ;
+    padding-right: 20px;
+    padding-bottom: 4px;
+}
+
+.search-container {
+    margin: auto;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #45A501;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357e00;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+thead th {
+    background-color: #45A501;
+    color: white;
+    padding: 12px;
+}
+
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table {
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+#health-tips {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#health-tips p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+#health-tips div {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}

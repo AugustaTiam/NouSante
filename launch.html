@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NouSante Launcher</title>
+    <link rel="stylesheet" href="style/launch.css">
+</head>
+<body>
+    <div class="video-container">
+        <video id="video-background" autoplay loop muted>
+            <source src="C:/Users/User/OneDrive/Dokumente/NouSante/image/launchNS.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <pre class="center-text">App launching, please wait ...</pre> <br>
+    
+    <script>
+        // This script is not fully operational
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzs_o6Y-QFODvQXCCpMitpTCw-kb4tAfmgJ45HpuGXB0mRkjfKrfklq-sPDkTrieZDc_w/exec';
+
+        function isLoggedIn(token) {
+            return fetch(`${scriptURL}?token=${token}`)
+                .then(response => response.json())
+                .then(data => data.loggedIn)
+                .catch(error => {
+                    console.error('Error:', error);
+                    return false;
+                });
+        }
+
+        const userToken = localStorage.getItem('userToken');
+
+        setTimeout(() => {
+            isLoggedIn(userToken).then(loggedIn => {
+                if (loggedIn) {
+                    window.location.href = 'login.html';
+                } else {
+                    window.location.href = 'register.html';
+                }
+            });
+        }, 5000);
+    </script>
+</body>
+</html>

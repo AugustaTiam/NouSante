@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: Bitter;
+}
+
+.video-container {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#video-background {
+    width: 100%;
+    height: auto;
+}
+
+.center-text {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}

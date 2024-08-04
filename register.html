@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/register.css">
+    <script src="scripts/register.js" defer></script>
+    <title>Register</title>
+</head>
+
+<body>
+    <section class="content">
+        <pre>
+            <img src="image\logoNS.jpg" alt="NouSante Logo" style="height: 100px; vertical-align: middle;">
+        Welcome to Nou la Sante. Here, we provide you with reliable quick medical assistance. Register below to use our services
+        </pre>
+        <form id="registrationForm" action="https://script.google.com/macros/s/AKfycbxr_2ufAbncplVUnrpwPedNemwRufPDA0NQCDBg9pY2UlkTxlMPW9nqDnhTTbHs64Sh_g/exec" method="POST" class="contact" onsubmit="return validateForm(event)">
+            <div class="field">
+                <input type="text" name="fname" placeholder="First Name" required>
+            </div>
+            <div class="field">
+                <input type="text" name="lname" placeholder="Last Name" required>
+            </div>
+            <div class="field">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="field">
+                <select name="region" required>
+                    <option value="">-- Select Region --</option>
+                    <option value="Black River">Black River</option>
+                    <option value="Flacq">Flacq</option>
+                    <option value="Grand Port">Grand Port</option>
+                    <option value="Moka">Moka</option>
+                    <option value="Pamplemousses">Pamplemousses</option>
+                    <option value="Plaines Wilhems">Plaines Wilhems</option>
+                    <option value="Port Louis">Port Louis</option>
+                    <option value="Riviere du Rempart">Riviere du Rempart</option>
+                    <option value="Savanne">Savanne</option>
+                    <option value="Rodrigues">Rodrigues</option>
+                </select>
+            </div>
+            <div class="field">
+                <select name="city" required>
+                    <option value="">-- Select Village --</option>
+                    <option value="Albion">Albion</option>
+                    <option value="Amaury">Amaury</option>
+                    <option value="Amitié-Gokhoola">Amitié-Gokhoola</option>
+                    <option value="Anse La Raie">Anse La Raie</option>
+                    <option value="Arsenal">Arsenal</option>
+                    <option value="Baie du Cap">Baie du Cap</option>
+                    <option value="Baie du Tombeau">Baie du Tombeau</option>
+                    <option value="Bambous">Bambous</option>
+                    <option value="Bambous Virieux">Bambous Virieux</option>
+                    <option value="Bananes">Bananes</option>
+                    <option value="Beau Plan">Beau Plan</option>
+                    <option value="Beau Vallon">Beau Vallon</option>
+                    <option value="Bel Air Rivière Sèche">Bel Air Rivière Sèche</option>
+                    <option value="Bel Ombre">Bel Ombre</option>
+                    <option value="Belle Vue Haurel">Belle Vue Haurel</option>
+                    <option value="Bénarès">Bénarès</option>
+                    <option value="Bois Chéri">Bois Chéri</option>
+                    <option value="Bois des Amourettes">Bois des Amourettes</option>
+                    <option value="Bon Accueil">Bon Accueil</option>
+                    <option value="Bramsthan">Bramsthan</option>
+                    <option value="Brisée Verdière">Brisée Verdière</option>
+                    <option value="Britannia">Britannia</option>
+                    <option value="Calebasses">Calebasses</option>
+                    <option value="Camp Carol">Camp Carol</option>
+                    <option value="Camp de Masque">Camp de Masque</option>
+                    <option value="Camp de Masque Pavé">Camp de Masque Pavé</option>
+                    <option value="Camp Diable">Camp Diable</option>
+                    <option value="Camp Ithier">Camp Ithier</option>
+                    <option value="Camp Thorel">Camp Thorel</option>
+                    <option value="Cap Malheureux">Cap Malheureux</option>
+                    <option value="Cascavelle">Cascavelle</option>
+                    <option value="Case Noyale">Case Noyale</option>
+                    <option value="Centre de Flacq">Centre de Flacq</option>
+                    <option value="Chamarel">Chamarel</option>
+                    <option value="Chamouny">Chamouny</option>
+                    <option value="Chemin Grenier">Chemin Grenier</option>
+                    <option value="Clémencia">Clémencia</option>
+                    <option value="Cluny">Cluny</option>
+                    <option value="Congomah">Congomah</option>
+                    <option value="Cottage">Cottage</option>
+                    <option value="Crève Coeur">Crève Coeur</option>
+                    <option value="D'Épinay">D'Épinay</option>
+                    <option value="Dagotière">Dagotière</option>
+                    <option value="Dubreuil">Dubreuil</option>
+                    <option value="Écroignard">Écroignard</option>
+                    <option value="Espérance">Espérance</option>
+                    <option value="Espérance Trébuchet">Espérance Trébuchet</option>
+                    <option value="Flic en Flac">Flic en Flac</option>
+                    <option value="Fond du Sac">Fond du Sac</option>
+                    <option value="Goodlands">Goodlands</option>
+                    <option value="Grand Baie">Grand Baie</option>
+                    <option value="Grand Bel Air">Grand Bel Air</option>
+                    <option value="Grand Bois">Grand Bois</option>
+                    <option value="Grand Gaube">Grand Gaube</option>
+                    <option value="Grand Sable">Grand Sable</option>
+                    <option value="Grande Retraite">Grande Retraite</option>
+                    <option value="Grande Rivière Noire">Grande Rivière Noire</option>
+                    <option value="Grande Rivière Sud Est">Grande Rivière Sud Est</option>
+                    <option value="Gros Cailloux">Gros Cailloux</option>
+                    <option value="L'Avenir">L'Avenir</option>
+                    <option value="L'Escalier">L'Escalier</option>
+                    <option value="La Flora">La Flora</option>
+                    <option value="La Gaulette">La Gaulette</option>
+                    <option value="La Laura-Malenga">La Laura-Malenga</option>
+                    <option value="Lalmatie">Lalmatie</option>
+                    <option value="Laventure">Laventure</option>
+                    <option value="Le Hochet">Le Hochet</option>
+                    <option value="Le Morne">Le Morne</option>
+                    <option value="Le Vale">Le Vale</option>
+                    <option value="Mahébourg">Mahébourg</option>
+                    <option value="Mapou">Mapou</option>
+                    <option value="Mare Chicose">Mare Chicose</option>
+                    <option value="Mare d'Albert">Mare d'Albert</option>
+                    <option value="Mare La Chaux">Mare La Chaux</option>
+                    <option value="Mare Tabac">Mare Tabac</option>
+                    <option value="Médine Camp de Masque">Médine Camp de Masque</option>
+                    <option value="Melrose">Melrose</option>
+                    <option value="Midlands">Midlands</option>
+                    <option value="Moka">Moka</option>
+                    <option value="Montagne Blanche">Montagne Blanche</option>
+                    <option value="Montagne Longue">Montagne Longue</option>
+                    <option value="Morcellement Saint André">Morcellement Saint André</option>
+                    <option value="New Grove">New Grove</option>
+                    <option value="Notre Dame">Notre Dame</option>
+                    <option value="Nouvelle Découverte">Nouvelle Découverte</option>
+                    <option value="Nouvelle France">Nouvelle France</option>
+                    <option value="Olivia">Olivia</option>
+                    <option value="Pailles">Pailles</option>
+                    <option value="Pamplemousses">Pamplemousses</option>
+                    <option value="Petit Bel Air">Petit Bel Air</option>
+                    <option value="Petit Raffray">Petit Raffray</option>
+                    <option value="Petite Rivière">Petite Rivière</option>
+                    <option value="Piton">Piton</option>
+                    <option value="Plaine des Papayes">Plaine des Papayes</option>
+                    <option value="Plaine des Roches">Plaine des Roches</option>
+                    <option value="Plaine Magnien">Plaine Magnien</option>
+                    <option value="Pointe aux Piments">Pointe aux Piments</option>
+                    <option value="Poste de Flacq">Poste de Flacq</option>
+                    <option value="Poudre d'Or">Poudre d'Or</option>
+                    <option value="Poudre d'Or Hamlet">Poudre d'Or Hamlet</option>
+                    <option value="Providence">Providence</option>
+                    <option value="Quartier Militaire">Quartier Militaire</option>
+                    <option value="Quatre Cocos">Quatre Cocos</option>
+                    <option value="Quatre Soeurs">Quatre Soeurs</option>
+                    <option value="Queen Victoria">Queen Victoria</option>
+                    <option value="Richelieu">Richelieu</option>
+                    <option value="Ripailles">Ripailles</option>
+                    <option value="Rivière des Anguilles">Rivière des Anguilles</option>
+                    <option value="Rivière des Créoles">Rivière des Créoles</option>
+                    <option value="Rivière du Poste">Rivière du Poste</option>
+                    <option value="Rivière du Rempart">Rivière du Rempart</option>
+                    <option value="Roche Terre">Roche Terre</option>
+                    <option value="Roches Noires">Roches Noires</option>
+                    <option value="Rose Belle">Rose Belle</option>
+                    <option value="Saint Aubin">Saint Aubin</option>
+                    <option value="Saint Hubert">Saint Hubert</option>
+                    <option value="Saint Julien d'Hotman">Saint Julien d'Hotman</option>
+                    <option value="Saint Julien Village">Saint Julien Village</option>
+                    <option value="Saint Pierre">Saint Pierre</option>
+                    <option value="Sébastopol">Sébastopol</option>
+                    <option value="Seizième Mille">Seizième Mille</option>
+                    <option value="Souillac">Souillac</option>
+                    <option value="Surinam">Surinam</option>
+                    <option value="Tamarin">Tamarin</option>
+                    <option value="Terre Rouge">Terre Rouge</option>
+                    <option value="Triolet">Triolet</option>
+                    <option value="Trois Boutiques">Trois Boutiques</option>
+                    <option value="Trou aux Biches">Trou aux Biches</option>
+                    <option value="Trou d'Eau Douce">Trou d'Eau Douce</option>
+                    <option value="Tyack">Tyack</option>
+                    <option value="Union Park">Union Park</option>
+                    <option value="Vale">Vale</option>
+                    <option value="Verdun">Verdun</option>
+                    <option value="Vieux Grand Port">Vieux Grand Port</option>
+                    <option value="Ville Bague">Ville Bague</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <span id="password_message" class="error-message"></span>
+                <span id="password_strength_message" class="error-message"></span>
+            </div>
+            <div class="field">
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            
+            <p>Already have an account? <a href="login.html">Log in</a></p>
+            <div class="field">
+                <button type="submit" class="submit">Register</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p class="footer-copyright">© 2024 NouSante. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

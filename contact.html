@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/index.css">
+    <script src="scripts/contact.js" defer></script>
+    <title>Contact</title>
+</head>
+<body style="background-image: url('../image/img11.jpg');">
+
+    <div class="nav">
+        <img src="image\logoNS.jpg" alt="NouSante Logo" style="height: 40px; vertical-align: middle;">
+        <a href="home.html">Home</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="results.html">Results</a>
+        <a class="active" href="contact.html">Contact Us</a>
+    </div>
+
+    <section class="content">
+        <form action="" method="POST" class="contact">
+            <div class="field">
+                <input type="text" name="Fname" placeholder="First Name" required>
+            </div>
+            <div class="field">
+                <input type="text" name="Lname" placeholder="Last Name" required>
+            </div>
+            <div class="field">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="field">
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="field">
+                <textarea name="message" rows="4" placeholder="Message" required></textarea>
+            </div>
+            <div class="field">
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-links">
+                <a href="home.html">Home</a>
+                <a href="doctors.html">Doctors</a>
+                <a href="results.html">Results</a>
+            </div>
+            <p class="footer-copyright">© 2024 NouSante. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
