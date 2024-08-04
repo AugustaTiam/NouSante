@@ -9,12 +9,13 @@
   <link rel="stylesheet" href="style/doctors.css">
   <link rel="stylesheet" href="style/index.css">
   <script src="scripts/doctors.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs5_6_5JYInH8nemWoRtFHdWd5bxcJB2g" defer></script>
+  <script src="scripts/map.js" defer></script>
 </head>
 
 <body>
   <div class="nav">
-    <img src="image\logoNS.jpg" alt="NouSante Logo"
-    style="height: 40px; vertical-align: middle;">
+    <img src="image\logoNS.jpg" alt="NouSante Logo" style="height: 40px; vertical-align: middle;">
     <a href="home.html">Home</a>
     <a class="active" href="doctors.html">Doctors</a>
     <a href="results.html">Results</a>
@@ -26,7 +27,13 @@
     <button id="searchButton">Search</button>
   </div>
 
+  <h1>List of Doctors</h1>
+  <pre>Below is a list of doctors, you may filter them by name for easy search</pre>
   <div id="doctors-container"></div>
+
+  <h1>A Map for You</h1>
+  <pre>Looking to go somewhere, use the map below for easy direction</pre>
+  <div id="map"></div>
 
   <br><br><br><br>
 
