@@ -1,1 +1,321 @@
-[{"Patient ID": 1006, "Name": "Paul Green", "Age": 32, "Gender": "Male", "Symptoms": "Fatigue, Fever, Headache", "Diagnosis": "Migraine", "Date of Visit": "2024-06-06"}, {"Patient ID": 1010, "Name": "Sarah Lewis", "Age": 41, "Gender": "Male", "Symptoms": "Cough, Headache, Fatigue", "Diagnosis": "COVID-19", "Date of Visit": "2023-11-16"}, {"Patient ID": 1000, "Name": "James Scott", "Age": 75, "Gender": "Female", "Symptoms": "Fever, Headache, Cough", "Diagnosis": "Migraine", "Date of Visit": "2023-12-03"}, {"Patient ID": 1009, "Name": "Thomas White", "Age": 32, "Gender": "Female", "Symptoms": "Cough, Fever, Shortness of breath", "Diagnosis": "Flu", "Date of Visit": "2023-08-30"}, {"Patient ID": 1018, "Name": "Daniel Harris", "Age": 38, "Gender": "Male", "Symptoms": "Headache, Shortness of breath, Cough", "Diagnosis": "COVID-19", "Date of Visit": "2023-12-09"}, {"Patient ID": 1008, "Name": "Jane Smith", "Age": 77, "Gender": "Male", "Symptoms": "Fever, Shortness of breath, Headache", "Diagnosis": "Flu", "Date of Visit": "2023-09-19"}, {"Patient ID": 1017, "Name": "Jessica Wilson", "Age": 21, "Gender": "Female", "Symptoms": "Headache, Cough, Shortness of breath", "Diagnosis": "COVID-19", "Date of Visit": "2023-10-25"}, {"Patient ID": 1011, "Name": "Jane Smith", "Age": 79, "Gender": "Female", "Symptoms": "Shortness of breath, Headache, Fever", "Diagnosis": "Asthma", "Date of Visit": "2024-05-19"}, {"Patient ID": 1012, "Name": "Charles Walker", "Age": 70, "Gender": "Female", "Symptoms": "Shortness of breath, Headache, Fatigue", "Diagnosis": "Asthma", "Date of Visit": "2024-04-23"}, {"Patient ID": 1012, "Name": "John Doe", "Age": 88, "Gender": "Male", "Symptoms": "Fever, Shortness of breath, Headache", "Diagnosis": "Migraine", "Date of Visit": "2024-02-03"}, {"Patient ID": 1007, "Name": "Alice Johnson", "Age": 52, "Gender": "Male", "Symptoms": "Shortness of breath, Fatigue, Fever", "Diagnosis": "COVID-19", "Date of Visit": "2024-06-20"}, {"Patient ID": 1006, "Name": "David Clark", "Age": 89, "Gender": "Female", "Symptoms": "Shortness of breath, Fatigue, Headache", "Diagnosis": "Asthma", "Date of Visit": "2023-12-31"}, {"Patient ID": 1011, "Name": "Jessica Wilson", "Age": 52, "Gender": "Male", "Symptoms": "Fatigue, Fever, Shortness of breath", "Diagnosis": "Migraine", "Date of Visit": "2023-12-28"}, {"Patient ID": 1004, "Name": "Robert King", "Age": 44, "Gender": "Male", "Symptoms": "Fatigue, Headache, Cough", "Diagnosis": "Flu", "Date of Visit": "2023-11-02"}, {"Patient ID": 1003, "Name": "Michael Lee", "Age": 40, "Gender": "Male", "Symptoms": "Fever, Cough, Fatigue", "Diagnosis": "Hypertension", "Date of Visit": "2024-04-24"}, {"Patient ID": 1006, "Name": "Nancy Adams", "Age": 45, "Gender": "Female", "Symptoms": "Headache, Fatigue, Shortness of breath", "Diagnosis": "Asthma", "Date of Visit": "2024-03-01"}, {"Patient ID": 1011, "Name": "James Scott", "Age": 47, "Gender": "Female", "Symptoms": "Shortness of breath, Cough, Fever", "Diagnosis": "Hypertension", "Date of Visit": "2024-03-24"}, {"Patient ID": 1006, "Name": "John Doe", "Age": 18, "Gender": "Male", "Symptoms": "Shortness of breath, Fatigue, Cough", "Diagnosis": "Asthma", "Date of Visit": "2023-10-08"}, {"Patient ID": 1002, "Name": "Daniel Harris", "Age": 87, "Gender": "Female", "Symptoms": "Shortness of breath, Fatigue, Fever", "Diagnosis": "Flu", "Date of Visit": "2023-12-13"}, {"Patient ID": 1009, "Name": "James Scott", "Age": 41, "Gender": "Male", "Symptoms": "Shortness of breath, Fatigue, Cough", "Diagnosis": "Flu", "Date of Visit": "2023-11-29"}, {"Patient ID": 1016, "Name": "Paul Green", "Age": 29, "Gender": "Female", "Symptoms": "Shortness of breath, Fatigue, Cough", "Diagnosis": "Flu", "Date of Visit": "2024-05-04"}, {"Patient ID": 1016, "Name": "Lisa Hall", "Age": 19, "Gender": "Female", "Symptoms": "Shortness of breath, Cough, Headache", "Diagnosis": "Flu", "Date of Visit": "2023-10-17"}, {"Patient ID": 1018, "Name": "Jane Smith", "Age": 70, "Gender": "Female", "Symptoms": "Cough, Headache, Shortness of breath", "Diagnosis": "Hypertension", "Date of Visit": "2023-12-16"}, {"Patient ID": 1010, "Name": "Lisa Hall", "Age": 55, "Gender": "Female", "Symptoms": "Cough, Headache, Fever", "Diagnosis": "Migraine", "Date of Visit": "2024-02-13"}, {"Patient ID": 1015, "Name": "Thomas White", "Age": 76, "Gender": "Female", "Symptoms": "Cough, Fever, Fatigue", "Diagnosis": "Migraine", "Date of Visit": "2023-08-12"}, {"Patient ID": 1002, "Name": "Nancy Adams", "Age": 37, "Gender": "Female", "Symptoms": "Headache, Fever, Shortness of breath", "Diagnosis": "COVID-19", "Date of Visit": "2023-10-29"}, {"Patient ID": 1000, "Name": "Sarah Lewis", "Age": 74, "Gender": "Male", "Symptoms": "Cough, Shortness of breath, Fatigue", "Diagnosis": "COVID-19", "Date of Visit": "2023-08-08"}, {"Patient ID": 1006, "Name": "Thomas White", "Age": 77, "Gender": "Male", "Symptoms": "Fatigue, Headache, Shortness of breath", "Diagnosis": "Asthma", "Date of Visit": "2023-11-08"}, {"Patient ID": 1008, "Name": "David Clark", "Age": 36, "Gender": "Female", "Symptoms": "Cough, Shortness of breath, Fever", "Diagnosis": "Flu", "Date of Visit": "2023-10-11"}, {"Patient ID": 1019, "Name": "Sarah Lewis", "Age": 89, "Gender": "Female", "Symptoms": "Cough, Shortness of breath, Headache", "Diagnosis": "Flu", "Date of Visit": "2024-07-27"}, {"Patient ID": 1017, "Name": "Robert King", "Age": 83, "Gender": "Female", "Symptoms": "Fever, Shortness of breath, Cough", "Diagnosis": "Hypertension", "Date of Visit": "2023-10-03"}, {"Patient ID": 1003, "Name": "John Doe", "Age": 31, "Gender": "Male", "Symptoms": "Fever, Cough, Headache", "Diagnosis": "Flu", "Date of Visit": "2024-01-17"}, {"Patient ID": 1000, "Name": "Thomas White", "Age": 76, "Gender": "Male", "Symptoms": "Cough, Fatigue, Fever", "Diagnosis": "Migraine", "Date of Visit": "2024-03-23"}, {"Patient ID": 1001, "Name": "John Doe", "Age": 45, "Gender": "Male", "Symptoms": "Headache, Fever, Fatigue", "Diagnosis": "Migraine", "Date of Visit": "2023-10-25"}, {"Patient ID": 1002, "Name": "Lisa Hall", "Age": 34, "Gender": "Female", "Symptoms": "Headache, Shortness of breath, Cough", "Diagnosis": "Asthma", "Date of Visit": "2023-09-05"}, {"Patient ID": 1002, "Name": "David Clark", "Age": 54, "Gender": "Female", "Symptoms": "Headache, Fatigue, Fever", "Diagnosis": "Migraine", "Date of Visit": "2024-02-05"}, {"Patient ID": 1000, "Name": "Paul Green", "Age": 80, "Gender": "Male", "Symptoms": "Fever, Cough, Headache", "Diagnosis": "Migraine", "Date of Visit": "2024-04-28"}, {"Patient ID": 1017, "Name": "Laura Allen", "Age": 71, "Gender": "Female", "Symptoms": "Cough, Shortness of breath, Fever", "Diagnosis": "COVID-19", "Date of Visit": "2024-05-08"}, {"Patient ID": 1014, "Name": "Jane Smith", "Age": 44, "Gender": "Female", "Symptoms": "Headache, Fatigue, Cough", "Diagnosis": "Flu", "Date of Visit": "2024-02-07"}, {"Patient ID": 1010, "Name": "Thomas White", "Age": 56, "Gender": "Male", "Symptoms": "Fatigue, Cough, Shortness of breath", "Diagnosis": "COVID-19", "Date of Visit": "2023-11-16"}]
+[{
+    "Patient ID": 1006,
+    "Name": "Paul Green",
+    "Age": 32,
+    "Gender": "Male",
+    "Symptoms": "Fatigue, Fever, Headache",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2024-06-06"
+}, {
+    "Patient ID": 1010,
+    "Name": "Sarah Lewis",
+    "Age": 41,
+    "Gender": "Male",
+    "Symptoms": "Cough, Headache, Fatigue",
+    "Diagnosis": "COVID-19",
+    "Date of Visit": "2023-11-16"
+}, {
+    "Patient ID": 1000,
+    "Name": "James Scott",
+    "Age": 75,
+    "Gender": "Female",
+    "Symptoms": "Fever, Headache, Cough",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2023-12-03"
+}, {
+    "Patient ID": 1009,
+    "Name": "Thomas White",
+    "Age": 32,
+    "Gender": "Female",
+    "Symptoms": "Cough, Fever, Shortness of breath",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2023-08-30"
+}, {
+    "Patient ID": 1018,
+    "Name": "Daniel Harris",
+    "Age": 38,
+    "Gender": "Male",
+    "Symptoms": "Headache, Shortness of breath, Cough",
+    "Diagnosis": "COVID-19",
+    "Date of Visit": "2023-12-09"
+}, {
+    "Patient ID": 1008,
+    "Name": "Jane Smith",
+    "Age": 77,
+    "Gender": "Male",
+    "Symptoms": "Fever, Shortness of breath, Headache",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2023-09-19"
+}, {
+    "Patient ID": 1017,
+    "Name": "Jessica Wilson",
+    "Age": 21,
+    "Gender": "Female",
+    "Symptoms": "Headache, Cough, Shortness of breath",
+    "Diagnosis": "COVID-19",
+    "Date of Visit": "2023-10-25"
+}, {
+    "Patient ID": 1011,
+    "Name": "Jane Smith",
+    "Age": 78,
+    "Gender": "Female",
+    "Symptoms": "Shortness of breath, Headache, Fever",
+    "Diagnosis": "Asthma",
+    "Date of Visit": "2024-05-19"
+}, {
+    "Patient ID": 1012,
+    "Name": "Charles Walker",
+    "Age": 70,
+    "Gender": "Female",
+    "Symptoms": "Shortness of breath, Headache, Fatigue",
+    "Diagnosis": "Asthma",
+    "Date of Visit": "2024-04-23"
+}, {
+    "Patient ID": 1012,
+    "Name": "John Doe",
+    "Age": 88,
+    "Gender": "Male",
+    "Symptoms": "Fever, Shortness of breath, Headache",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2024-02-03"
+}, {
+    "Patient ID": 1007,
+    "Name": "Alice Johnson",
+    "Age": 52,
+    "Gender": "Male",
+    "Symptoms": "Shortness of breath, Fatigue, Fever",
+    "Diagnosis": "COVID-19",
+    "Date of Visit": "2024-06-20"
+}, {
+    "Patient ID": 1006,
+    "Name": "David Clark",
+    "Age": 89,
+    "Gender": "Female",
+    "Symptoms": "Shortness of breath, Fatigue, Headache",
+    "Diagnosis": "Asthma",
+    "Date of Visit": "2023-12-31"
+}, {
+    "Patient ID": 1011,
+    "Name": "Jessica Wilson",
+    "Age": 52,
+    "Gender": "Male",
+    "Symptoms": "Fatigue, Fever, Shortness of breath",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2023-12-28"
+}, {
+    "Patient ID": 1004,
+    "Name": "Robert King",
+    "Age": 44,
+    "Gender": "Male",
+    "Symptoms": "Fatigue, Headache, Cough",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2023-11-02"
+}, {
+    "Patient ID": 1003,
+    "Name": "Michael Lee",
+    "Age": 40,
+    "Gender": "Male",
+    "Symptoms": "Fever, Cough, Fatigue",
+    "Diagnosis": "Hypertension",
+    "Date of Visit": "2024-04-24"
+}, {
+    "Patient ID": 1006,
+    "Name": "Nancy Adams",
+    "Age": 45,
+    "Gender": "Female",
+    "Symptoms": "Headache, Fatigue, Shortness of breath",
+    "Diagnosis": "Asthma",
+    "Date of Visit": "2024-03-01"
+}, {
+    "Patient ID": 1011,
+    "Name": "James Scott",
+    "Age": 47,
+    "Gender": "Female",
+    "Symptoms": "Shortness of breath, Cough, Fever",
+    "Diagnosis": "Hypertension",
+    "Date of Visit": "2024-03-24"
+}, {
+    "Patient ID": 1006,
+    "Name": "John Doe",
+    "Age": 18,
+    "Gender": "Male",
+    "Symptoms": "Shortness of breath, Fatigue, Cough",
+    "Diagnosis": "Asthma",
+    "Date of Visit": "2023-10-08"
+}, {
+    "Patient ID": 1002,
+    "Name": "Daniel Harris",
+    "Age": 87,
+    "Gender": "Female",
+    "Symptoms": "Shortness of breath, Fatigue, Fever",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2023-12-13"
+}, {
+    "Patient ID": 1009,
+    "Name": "James Scott",
+    "Age": 41,
+    "Gender": "Male",
+    "Symptoms": "Shortness of breath, Fatigue, Cough",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2023-11-29"
+}, {
+    "Patient ID": 1016,
+    "Name": "Paul Green",
+    "Age": 29,
+    "Gender": "Female",
+    "Symptoms": "Shortness of breath, Fatigue, Cough",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2024-05-04"
+}, {
+    "Patient ID": 1016,
+    "Name": "Lisa Hall",
+    "Age": 19,
+    "Gender": "Female",
+    "Symptoms": "Shortness of breath, Cough, Headache",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2023-10-17"
+}, {
+    "Patient ID": 1018,
+    "Name": "Jane Smith",
+    "Age": 70,
+    "Gender": "Female",
+    "Symptoms": "Cough, Headache, Shortness of breath",
+    "Diagnosis": "Hypertension",
+    "Date of Visit": "2023-12-16"
+}, {
+    "Patient ID": 1010,
+    "Name": "Lisa Hall",
+    "Age": 55,
+    "Gender": "Female",
+    "Symptoms": "Cough, Headache, Fever",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2024-02-13"
+}, {
+    "Patient ID": 1015,
+    "Name": "Thomas White",
+    "Age": 76,
+    "Gender": "Female",
+    "Symptoms": "Cough, Fever, Fatigue",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2023-08-12"
+}, {
+    "Patient ID": 1002,
+    "Name": "Nancy Adams",
+    "Age": 37,
+    "Gender": "Female",
+    "Symptoms": "Headache, Fever, Shortness of breath",
+    "Diagnosis": "COVID-19",
+    "Date of Visit": "2023-10-29"
+}, {
+    "Patient ID": 1000,
+    "Name": "Sarah Lewis",
+    "Age": 74,
+    "Gender": "Male",
+    "Symptoms": "Cough, Shortness of breath, Fatigue",
+    "Diagnosis": "COVID-19",
+    "Date of Visit": "2023-08-08"
+}, {
+    "Patient ID": 1006,
+    "Name": "Thomas White",
+    "Age": 77,
+    "Gender": "Male",
+    "Symptoms": "Fatigue, Headache, Shortness of breath",
+    "Diagnosis": "Asthma",
+    "Date of Visit": "2023-11-08"
+}, {
+    "Patient ID": 1008,
+    "Name": "David Clark",
+    "Age": 36,
+    "Gender": "Female",
+    "Symptoms": "Cough, Shortness of breath, Fever",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2023-10-11"
+}, {
+    "Patient ID": 1019,
+    "Name": "Sarah Lewis",
+    "Age": 89,
+    "Gender": "Female",
+    "Symptoms": "Cough, Shortness of breath, Headache",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2024-07-27"
+}, {
+    "Patient ID": 1017,
+    "Name": "Robert King",
+    "Age": 83,
+    "Gender": "Female",
+    "Symptoms": "Fever, Shortness of breath, Cough",
+    "Diagnosis": "Hypertension",
+    "Date of Visit": "2023-10-03"
+}, {
+    "Patient ID": 1003,
+    "Name": "John Doe",
+    "Age": 31,
+    "Gender": "Male",
+    "Symptoms": "Fever, Cough, Headache",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2024-01-17"
+}, {
+    "Patient ID": 1000,
+    "Name": "Thomas White",
+    "Age": 76,
+    "Gender": "Male",
+    "Symptoms": "Cough, Fatigue, Fever",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2024-03-23"
+}, {
+    "Patient ID": 1001,
+    "Name": "John Doe",
+    "Age": 45,
+    "Gender": "Male",
+    "Symptoms": "Headache, Fever, Fatigue",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2023-10-25"
+}, {
+    "Patient ID": 1002,
+    "Name": "Lisa Hall",
+    "Age": 34,
+    "Gender": "Female",
+    "Symptoms": "Headache, Shortness of breath, Cough",
+    "Diagnosis": "Asthma",
+    "Date of Visit": "2023-09-05"
+}, {
+    "Patient ID": 1002,
+    "Name": "David Clark",
+    "Age": 54,
+    "Gender": "Female",
+    "Symptoms": "Headache, Fatigue, Fever",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2024-02-05"
+}, {
+    "Patient ID": 1000,
+    "Name": "Paul Green",
+    "Age": 80,
+    "Gender": "Male",
+    "Symptoms": "Fever, Cough, Headache",
+    "Diagnosis": "Migraine",
+    "Date of Visit": "2024-04-28"
+}, {
+    "Patient ID": 1017,
+    "Name": "Laura Allen",
+    "Age": 71,
+    "Gender": "Female",
+    "Symptoms": "Cough, Shortness of breath, Fever",
+    "Diagnosis": "COVID-19",
+    "Date of Visit": "2024-05-08"
+}, {
+    "Patient ID": 1014,
+    "Name": "Jane Smith",
+    "Age": 44,
+    "Gender": "Female",
+    "Symptoms": "Headache, Fatigue, Cough",
+    "Diagnosis": "Flu",
+    "Date of Visit": "2024-02-07"
+}, {
+    "Patient ID": 1010,
+    "Name": "Thomas White",
+    "Age": 56,
+    "Gender": "Male",
+    "Symptoms": "Fatigue, Cough, Shortness of breath",
+    "Diagnosis": "COVID-19",
+    "Date of Visit": "2023-11-16"
+}]

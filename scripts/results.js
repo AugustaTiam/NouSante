@@ -1,5 +1,6 @@
 let currentPage = 1;
 const rowsPerPage = 10;
+let allPatientRecords = [];
 
 async function fetchData(url) {
     try {
@@ -19,10 +20,10 @@ async function fetchData(url) {
 
 async function displayPatientRecords() {
     console.log('Fetching patient records...');
-    const patientRecords = await fetchData('http://127.0.0.1:5000/patients');
-    console.log('Patient records:', patientRecords);
+    allPatientRecords = await fetchData('http://127.0.0.1:5000/patients'); 
+    console.log('Patient records:', allPatientRecords);
 
-    if (Array.isArray(patientRecords)) {
+    if (Array.isArray(allPatientRecords)) {
         console.log('Patient records are an array.');
         const patientTable = document.getElementById('patient-records');
         patientTable.innerHTML = '';
@@ -45,9 +46,9 @@ async function displayPatientRecords() {
         table.appendChild(tbody);
         patientTable.appendChild(table);
 
-        updateTable(patientRecords);
+        updateTable(allPatientRecords);
     } else {
-        console.error('Expected an array for patient records, but received:', patientRecords);
+        console.error('Expected an array for patient records, but received:', allPatientRecords);
     }
 }
 
@@ -105,37 +106,24 @@ function updateTable(records) {
 
 async function changePage(direction) {
     console.log('Changing page by direction:', direction);
-    const patientRecords = await fetchData('http://127.0.0.1:5000/patients');
-    if (Array.isArray(patientRecords)) {
-        const totalPages = Math.ceil(patientRecords.length / rowsPerPage);
+    if (Array.isArray(allPatientRecords)) {
+        const totalPages = Math.ceil(allPatientRecords.length / rowsPerPage);
         currentPage += direction;
         currentPage = Math.max(1, Math.min(currentPage, totalPages));
         console.log('Current page:', currentPage);
-        displayPatientRecords();
+        updateTable(allPatientRecords);
     }
 }
 
 function filterTable() {
     const input = document.getElementById('searchInput');
     const filter = input.value.toUpperCase();
-    const rows = document.querySelectorAll('#patient-records table tbody tr');
-
-    let noMatch = true;
-    rows.forEach(row => {
-        const cells = row.getElementsByTagName('td');
-        const nameCell = cells[0];
-        if (nameCell) {
-            const txtValue = nameCell.textContent || nameCell.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                row.style.display = '';
-                noMatch = false;
-            } else {
-                row.style.display = 'none';
-            }
-        }
+    const filteredRecords = allPatientRecords.filter(record => {
+        return record.Name.toUpperCase().indexOf(filter) > -1;
     });
 
-    document.getElementById('noMatchMessage').style.display = noMatch ? 'block' : 'none';
+    currentPage = 1;
+    updateTable(filteredRecords);
 }
 
 window.onload = () => {
